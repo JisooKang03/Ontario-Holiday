@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Holidays</title>
+	<link rel="stylesheet" href="css/mystyles.css">
+	<script src="js/indexScript.js"></script>
+</head>
+
+<body onload="buildList()">
+	<!-- Header -->
+	<h3>Statutory Holidays by Province</h3>
+	<hr>
+	<!-- in the dropdown list below show the list of provinces fetched from JSON file-->
+	<!-- add a default option called Select a province-->
+	<select id="provinces" onchange="showDetail()">
+	</select>
+	<hr/>
+	<div id="province-info">
+		<!--show the info about province in the format
+			code - province - capital
+		-->
+		<h2 id="province-heading"></h2>
+	</div>
+	<table id="holidays">
+		<thread>
+			<tr>
+				<th colspan="2">Name Of Holiday</th>
+			</tr>
+		</thread>
+		<!-- show the list of holidays in this table as separate rows. Add a heading
+		row called Holidays-->
+	</table>
+
+</body>
+
+</html>

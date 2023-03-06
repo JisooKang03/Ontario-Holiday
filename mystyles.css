@@ -1,0 +1,58 @@
+/* Province List CSS */
+body{
+	padding:10px;
+}
+.namestyle {color: blue;text-align: center;
+						font-weight: bold; margin-bottom: 2px;}
+
+a {text-decoration: none; color: navy;}
+
+/* removes automatic indent */
+ul {margin: 0; padding: 0;}
+
+li {border: thin solid black;
+		background: rgba(0, 0, 255, 0.1); 
+		text-align: center; 
+		padding: 10px; margin: 0px 10px 5px 10px;
+		list-style-type: none; }
+
+.bhead {color: white; background:blue; 
+	text-align:center; font-style: italic; 
+	margin: 5px 10px 5px 10px; padding: 2px;}
+	
+.bstyle {background:white; color: blue; 
+	border-radius: 10px; padding: 0px 15px 0px 15px; 
+	margin: 0px 10px 5px 10px; border: thin solid blue; }
+
+.buttonContainer { text-align: center; }
+
+@media screen and (orientation: landscape) {
+	.namestyle {font-size: 1.25em;}
+	.bhead {font-size: 1em;}
+	li {font-size: 1em;}
+}
+
+@media screen and (orientation: portrait) {
+	.namestyle {font-size: 1.5em;}
+	.bhead {font-size: 1.25em;}
+	li {font-size: 1.5em;}
+}
+
+#holidays {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+  }
+
+  #holidays th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #04AA6D;
+	color: white;
+  }
+  h3 {
+	color: navy;
+	text-align: center;
+	font-size: 1.5em;
+}

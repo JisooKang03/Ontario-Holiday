@@ -1,0 +1,56 @@
+{
+    "provinceList": [
+        {
+            "code": "ON",
+            "name": "Ontario",
+            "capital": "Ottawa",
+            "holidays": [
+                "New Year's Day",
+                "Family Day",
+                "Good Friday",
+                "Victoria Day",
+                "Canada Day",
+                "Simcoe (Civic) Day",
+                "Labour Day",
+                "Thanksgiving Day",
+                "Christmas Day",
+                "Boxing Day"
+            ]
+        },
+        {
+            "code": "QC",
+            "name": "Quebec",
+            "capital": "Quebec City",
+            "holidays": [
+                "New Year's Day",
+                "Good Friday",
+                "Easter Monday",
+                "Journée nationale des Patriotes",
+                "Saint-Jean-Baptiste Day",
+                "Canada Day",
+                "Labour Day",
+                "Thanksgiving Day",
+                "Christmas Day",
+                "Boxing Day"
+            ]
+        },
+        {
+            "code": "BC",
+            "name": "British Columbia",
+            "capital": "Vancouver",
+            "holidays": [
+                "New Year's Day",
+                "Family Day",
+                "Good Friday",
+                "Victoria Day",
+                "Canada Day",
+                "British Columbia Day",
+                "Labour Day",
+                "Thanksgiving Day",
+                "Remembrance Day",
+                "Christmas Day",
+                "Boxing Day"
+            ]
+        }
+    ]
+}
